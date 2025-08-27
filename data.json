@@ -33,7 +33,7 @@
         "Built a React + Python dashboard for configuring notification templates",
         "Provisioned infrastructure with AWS CDK including DynamoDB, S3, and IAM"
       ],
-      "logo": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/companies/aws.jpg"
+      "logo": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/companies/amazon-logo.png"
     },
     {
       "id": "2",
@@ -47,7 +47,7 @@
         "Designed an Azure pipeline for procuring and storing test data",
         "Improved modularity and scalability of internal integration services"
       ],
-      "logo": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/companies/alarm.jpg"
+      "logo": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/companies/alarm.com-logo.png"
     },
     {
       "id": "3",
@@ -61,7 +61,7 @@
         "Built a React + FastAPI web app to analyze KOL statements",
         "Led end-to-end testing efforts across the project stack"
       ],
-      "logo": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/companies/10pearls.jpg"
+      "logo": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/companies/10pearls-logo.png"
     }
   ],
   "projects": [
@@ -72,7 +72,7 @@
       "longDescription": "Dillagent provides abstractions for LLMs, Tools, Agents, and Executors, enabling structured workflows for intelligent systems. Includes support for multi-agent pipelines, retrieval augmented generation, and custom tool execution.",
       "technologies": ["Python", "Pydantic", "OpenAI API", "FAISS"],
       "images": [
-        "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/projects/dillagent-1.jpg"
+        "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/projects/dillagent-splash.png"
       ],
       "videos": [],
       "links": {
@@ -89,11 +89,11 @@
       "longDescription": "Full-stack platform with coding problem tracking, spaced repetition, and community-built roadmaps. Includes roadmap builder, subscription system, and real-time conversations with Claude API.",
       "technologies": ["React", "FastAPI", "PostgreSQL", "SQLAlchemy", "Docker", "AWS"],
       "images": [
-        "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/projects/demon-1.jpg"
+        "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/projects/demontime-splash.png"
       ],
       "videos": [],
       "links": {
-        "live": "https://your-demon-time-app.com",
+        "live": "https://www.demontime.top",
         "code": "https://github.com/buzzoo123/demon-time",
         "demo": ""
       },
