@@ -12,7 +12,15 @@
     }
   },
   "about": {
-    "content": "I'm a Computer Science and Math student at the University of Virginia with industry experience at Amazon, Alarm.com, and 10Pearls. My focus is on full stack engineering, machine learning, and agentic AI development.\n\nI've engineered platforms serving thousands of users, built ML-powered pipelines for multimodal AI, and created open-source frameworks for agentic development. My core expertise includes **Full Stack Engineering, ML/AI, Agentic Systems, Cloud Services, and System Architecture**.\n\nFun fact: I love to play and produce music — I play piano, guitar, and sing, with EDM and Jazz being my favorite genres!",
+    "content": "I'm a Computer Science and Math student at the University of Virginia with industry experience at Amazon, Alarm.com, and 10Pearls. My focus is on full stack engineering, machine learning, and agentic AI development.\n\nI've engineered platforms serving thousands of users, built ML-powered pipelines for multimodal AI, and created open-source frameworks for agentic development.\n\nAside from my professional life, I love to play tennis, poker, and instruments. I am in Club Tennis, Poker Club, and in a band at UVA. I also love to play video games — my favorite is currently Rocket League, but I'm always looking for new games to try!",
+    "coreExpertise": [
+      "Full Stack Engineering",
+      "ML/AI",
+      "Agentic Systems",
+      "Cloud Services",
+      "System Architecture"
+    ],
+    "funFact": "I love to play and produce music — I play piano, guitar, and sing, with EDM and Jazz being my favorite genres!",
     "highlights": [
       "Love to Build – Ever since I was young, I’ve loved creating. From Codecademy projects to Arduino and Raspberry Pi hacks, to autonomous drones and large-scale applications at AWS — I thrive on turning ideas into reality.",
       "Love to Learn – I’m a lifelong learner, always exploring new areas whether in coding, school, music, tennis, or games. Lately, I’ve been diving into the intersection of music and machine learning.",
