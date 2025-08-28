@@ -17,8 +17,7 @@
       "Full Stack Engineering",
       "ML/AI",
       "Agentic Systems",
-      "Cloud Services",
-      "System Architecture"
+      "Cloud Services"
     ],
     "funFact": "I love to play and produce music — I play piano, guitar, and sing, with EDM and Jazz being my favorite genres!",
     "highlights": [
@@ -35,9 +34,9 @@
       "position": "Software Development Engineer Intern",
       "duration": "May 2025 - Aug 2025",
       "description": "Built developer productivity and large-scale notification systems at AWS.",
-      "technologies": ["React", "Python", "AWS Lambda", "API Gateway", "DynamoDB", "PostgreSQL", "Docker", "CDK"],
+      "technologies": ["React", "Python", "FastMCP", "AWS Lambda", "API Gateway", "DynamoDB", "PostgreSQL", "Docker", "CDK"],
       "achievements": [
-        "Cut code review cycles by 43% by developing an MCP server with agentic tools and PostgreSQL persistence",
+        "Cut code review cycles by developing an MCP server with agentic tools and PostgreSQL persistence",
         "Engineered a React + Python dashboard to manage build notifications for thousands of SNS subscribers, saving 600+ engineering hours annually",
         "Provisioned and deployed scalable backend infra (DynamoDB, S3, API Gateway, Lambda, IAM) with AWS CDK"
       ],
@@ -94,11 +93,13 @@
       "description": "An iOS app for discovering and tracking live music gigs and events.",
       "longDescription": "Gig Grid helps music lovers find, organize, and attend live performances. Designed for simplicity and real-world use, it integrates a clean UI with live event data.",
       "technologies": ["Swift", "iOS"],
-      "images": [],
+      "images": [
+        "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/projects/giggrid-splash.png"
+      ],
       "links": {
         "live": "https://apps.apple.com/us/app/gig-grid/id6743071062"
       },
-      "featured": false
+      "featured": true
     },
     {
       "id": "3",
@@ -113,7 +114,49 @@
         "live": "https://www.demontime.top",
         "code": "https://github.com/buzzoo123/demon-time"
       },
-      "featured": true
+      "featured": false
+    },
+    {
+      "id": "4",
+      "title": "Produce Freshness CNN (1st Place ML4VA)",
+      "description": "Won 1st out of 80+ teams with a TensorFlow transfer-learning CNN that reached 98% validation accuracy on produce freshness.",
+      "longDescription": "Engineered and trained nine CNN variants using transfer learning (ResNet50V2) on 16,000+ labeled produce images, achieving 98% validation accuracy. Shipped a full-stack app for real-time uploads and inference with a Svelte + Tailwind front end and a serverless backend on Google Cloud Run with Cloud Storage.",
+      "technologies": ["TensorFlow", "ResNet50V2", "Python", "Svelte", "TailwindCSS", "Google Cloud Run", "Google Cloud Storage"],
+      "images": [
+        "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/projects/fruitfreshness-splash.png"
+      ],
+      "links": {
+        "live": "https://fruit-freshness-frontend.vercel.app/"
+      },
+      "featured": false
+    },
+    {
+      "id": "5",
+      "title": "SoundSift",
+      "description": "Electron + Svelte desktop app to search your sample library using CLAP audio/text embeddings and FAISS similarity.",
+      "longDescription": "Indexed entire sample libraries and enabled search by either a short audio clip or natural language (e.g., “sad guitar melody”). Backed by two HuggingFace CLAP models (audio→audio and text→audio) to embed queries and samples, with FAISS for fast nearest-neighbor retrieval. Exposed the pipeline via a lightweight API; the UI was built as an Electron + Svelte desktop app.",
+      "technologies": ["Svelte", "Electron", "FAISS", "HuggingFace", "CLAP", "Python", "Node.js"],
+      "images": [
+        "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/projects/soundsift-splash.png"
+      ],
+      "links": {
+        "code": "https://github.com/kierankhan/sound-search"
+      },
+      "featured": false
+    },
+    {
+      "id": "6",
+      "title": "Ctrl Phi",
+      "description": "Next.js + FastAPI + Chrome extension that lets you ‘search by idea’ with an LLM agent (ReAct-style) instead of exact text matches.",
+      "longDescription": "Ctrl Phi reimagines Ctrl+F when you don’t remember the exact phrasing. The system has three parts: a Next.js/Tailwind web app, a Chrome extension, and a FastAPI backend. We engineered a custom search agent that uses LLM reasoning and ReAct-inspired prompting to locate relevant passages, dynamically highlight matches, and auto-scroll to context in the UI. Built for HooHacks 2024.",
+      "technologies": ["Next.js", "FastAPI", "TailwindCSS", "Poetry", "Pydantic", "Caddy", "TypeScript", "JavaScript", "Python"],
+      "images": [
+        "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/projects/ctrlphi-splash.png"
+      ],
+      "links": {
+        "code": "https://github.com/tayydev/ctrl-phi"
+      },
+      "featured": false
     }
   ],
   "skills": [
