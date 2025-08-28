@@ -1,8 +1,8 @@
 {
   "profile": {
     "name": "Dillan Khurana",
-    "title": "Full Stack Engineer & Agentic AI Developer",
-    "description": "I engineer scalable full stack systems and intelligent agentic frameworks. My work blends modern software engineering with AI-driven automation, focusing on reliability, performance, and real-world impact.",
+    "title": "Full Stack ML/AI Engineer",
+    "description": "I engineer scalable full stack systems and production-ready agentic applications. My work blends modern software engineering with cutting-edge ML/AI integration, focusing on reliability, performance, and real-world impact.",
     "avatar": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/profile.jpg",
     "social": {
       "github": "https://github.com/buzzoo123",
@@ -12,12 +12,12 @@
     }
   },
   "about": {
-    "content": "I'm a Computer Science and Math student at the University of Virginia, with industry experience at Amazon, Alarm.com, and 10Pearls. My focus is on full stack engineering and agentic AI development.\n\nI've engineered platforms serving thousands of users, built pipelines for multimodal AI, and created open-source frameworks for agentic development. My core stack includes React, FastAPI, PostgreSQL, and cloud infrastructure (AWS + Azure).\n\nI thrive at the intersection of software and AI: designing systems that are scalable, modular, and capable of orchestrating intelligent agents. Outside of work, I love tennis, poker, and playing piano with my band.",
+    "content": "I'm a Computer Science and Math student at the University of Virginia with industry experience at Amazon, Alarm.com, and 10Pearls. My focus is on full stack engineering, machine learning, and agentic AI development.\n\nI've engineered platforms serving thousands of users, built ML-powered pipelines for multimodal AI, and created open-source frameworks for agentic development. My core expertise includes **Full Stack Engineering, ML/AI, Agentic Systems, Cloud Services, and System Architecture**.\n\nFun fact: I love to play and produce music — I play piano, guitar, and sing, with EDM and Jazz being my favorite genres!",
     "highlights": [
-      "Created Dillagent, a framework for building production-ready agentic AI applications",
-      "Built and deployed Demon Time, an open-source interview prep platform with roadmaps and spaced repetition",
-      "Software Engineering Intern at Amazon (AWS) — engineered large-scale internal tooling for notifications",
-      "Video AI Intern at Alarm.com — designed pipelines for multimodal LLM testing and evaluation"
+      "Love to Build – Ever since I was young, I’ve loved creating. From Codecademy projects to Arduino and Raspberry Pi hacks, to autonomous drones and large-scale applications at AWS — I thrive on turning ideas into reality.",
+      "Love to Learn – I’m a lifelong learner, always exploring new areas whether in coding, school, music, tennis, or games. Lately, I’ve been diving into the intersection of music and machine learning.",
+      "Love to Deliver – At AWS and beyond, I’ve delivered products ranging from full-stack systems to ML pipelines that are used in the real world.",
+      "Love to Collaborate – I enjoy sharing ideas and working with others. Reach out to chat about projects, music, or even gaming!"
     ]
   },
   "experience": [
@@ -26,12 +26,12 @@
       "company": "Amazon Web Services",
       "position": "Software Development Engineer Intern",
       "duration": "May 2025 - Aug 2025",
-      "description": "Engineered full-stack infrastructure and tooling for regional build notifications at scale.",
-      "technologies": ["React", "Python", "AWS Lambda", "API Gateway", "DynamoDB", "CDK"],
+      "description": "Built developer productivity and large-scale notification systems at AWS.",
+      "technologies": ["React", "Python", "AWS Lambda", "API Gateway", "DynamoDB", "PostgreSQL", "Docker", "CDK"],
       "achievements": [
-        "Automated regional build notifications for 12,000+ subscribers, saving 600+ engineering hours annually",
-        "Built a React + Python dashboard for configuring notification templates",
-        "Provisioned infrastructure with AWS CDK including DynamoDB, S3, and IAM"
+        "Cut code review cycles by 43% by developing an MCP server with agentic tools and PostgreSQL persistence",
+        "Engineered a React + Python dashboard to manage build notifications for thousands of SNS subscribers, saving 600+ engineering hours annually",
+        "Provisioned and deployed scalable backend infra (DynamoDB, S3, API Gateway, Lambda, IAM) with AWS CDK"
       ],
       "logo": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/companies/amazon-logo.png"
     },
@@ -40,12 +40,12 @@
       "company": "Alarm.com",
       "position": "Software Engineer Intern (Video AI)",
       "duration": "Jun 2024 - Aug 2024",
-      "description": "Worked on pipelines and evaluation systems for multimodal AI camera deterrence features.",
-      "technologies": ["Azure", "Python", "Docker", "REST APIs"],
+      "description": "Developed automated pipelines for multimodal LLM testing and evaluation.",
+      "technologies": ["Azure", "Python", "Docker", "C#", "ASP.NET"],
       "achievements": [
-        "Developed scoring algorithms for multimodal LLM-generated outputs",
-        "Designed an Azure pipeline for procuring and storing test data",
-        "Improved modularity and scalability of internal integration services"
+        "Built automated benchmarking platform for multimodal LLMs, doubling testing speed",
+        "Devised k-means clustering + embeddings approach to validate LLM outputs on image recognition tasks",
+        "Created Azure + ASP.NET pipeline and dashboard for dataset procurement, cutting time by 83%"
       ],
       "logo": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/companies/alarm.com-logo.png"
     },
@@ -54,12 +54,13 @@
       "company": "10Pearls",
       "position": "Software Engineer Intern",
       "duration": "Jun 2023 - Aug 2023",
-      "description": "Developed sentiment analysis pipelines and full stack apps for pharmaceutical clients.",
-      "technologies": ["React", "FastAPI", "MySQL", "Docker", "LLMs"],
+      "description": "Delivered ML-powered sentiment analysis pipelines and full stack solutions for pharmaceutical clients.",
+      "technologies": ["React", "FastAPI", "MySQL", "Docker", "PyTorch", "HuggingFace"],
       "achievements": [
-        "Finetuned LLMs for sentiment classification across social media and journals",
-        "Built a React + FastAPI web app to analyze KOL statements",
-        "Led end-to-end testing efforts across the project stack"
+        "Saved clients $100K+ per incident by finetuning LLMs for risk detection with 34% higher accuracy",
+        "Increased pipeline throughput 5x with concurrent request handling",
+        "Built a React + FastAPI dashboard for sentiment analysis reporting",
+        "Implemented CI/CD pipeline with pytest, Docker, and Selenium for robust E2E testing"
       ],
       "logo": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/companies/10pearls-logo.png"
     }
@@ -74,16 +75,25 @@
       "images": [
         "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/projects/dillagent-splash.png"
       ],
-      "videos": [],
       "links": {
-        "live": "",
-        "code": "https://github.com/buzzoo123/dillagent",
-        "demo": ""
+        "code": "https://github.com/buzzoo123/dillagent"
       },
       "featured": true
     },
     {
       "id": "2",
+      "title": "Gig Grid",
+      "description": "An iOS app for discovering and tracking live music gigs and events.",
+      "longDescription": "Gig Grid helps music lovers find, organize, and attend live performances. Designed for simplicity and real-world use, it integrates a clean UI with live event data.",
+      "technologies": ["Swift", "iOS"],
+      "images": [],
+      "links": {
+        "live": "https://apps.apple.com/us/app/gig-grid/id6743071062"
+      },
+      "featured": false
+    },
+    {
+      "id": "3",
       "title": "Demon Time",
       "description": "An open-source technical interview prep platform with community-driven roadmaps.",
       "longDescription": "Full-stack platform with coding problem tracking, spaced repetition, and community-built roadmaps. Includes roadmap builder, subscription system, and real-time conversations with Claude API.",
@@ -91,58 +101,31 @@
       "images": [
         "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/projects/demontime-splash.png"
       ],
-      "videos": [],
       "links": {
         "live": "https://www.demontime.top",
-        "code": "https://github.com/buzzoo123/demon-time",
-        "demo": ""
+        "code": "https://github.com/buzzoo123/demon-time"
       },
       "featured": true
     }
   ],
   "skills": [
-    {
-      "name": "React",
-      "level": 90,
-      "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/skills/react.svg",
-      "category": "Frontend"
-    },
-    {
-      "name": "FastAPI",
-      "level": 85,
-      "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/skills/fastapi.svg",
-      "category": "Backend"
-    },
-    {
-      "name": "PostgreSQL",
-      "level": 80,
-      "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/skills/postgres.svg",
-      "category": "Database"
-    },
-    {
-      "name": "AWS",
-      "level": 85,
-      "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/skills/aws.svg",
-      "category": "Cloud"
-    },
-    {
-      "name": "Azure",
-      "level": 70,
-      "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/skills/azure.svg",
-      "category": "Cloud"
-    },
-    {
-      "name": "Agentic AI",
-      "level": 90,
-      "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/skills/agentic.svg",
-      "category": "AI/ML"
-    },
-    {
-      "name": "Machine Learning",
-      "level": 85,
-      "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/skills/ml.svg",
-      "category": "AI/ML"
-    }
+    { "name": "React",       "icon": "assets/icons/svg/react.svg",               "category": "Frontend" },
+    { "name": "Node.js",     "icon": "assets/icons/svg/nodejs.svg",              "category": "Backend" },
+    { "name": "Express",     "icon": "assets/icons/svg/express.svg",             "category": "Backend" },
+    { "name": "Next.js",     "icon": "assets/icons/svg/nextjs.svg",              "category": "Frontend" },
+    { "name": "FastAPI",     "icon": "assets/icons/svg/fastapi.svg",             "category": "Backend" },
+    { "name": "PostgreSQL",  "icon": "assets/icons/svg/postgresql.svg",          "category": "Database" },
+    { "name": "MongoDB",     "icon": "assets/icons/svg/mongodb.svg",             "category": "Database" },
+    { "name": "MySQL",       "icon": "assets/icons/svg/mysql.svg",               "category": "Database" },
+    { "name": "AWS",         "icon": "assets/icons/svg/amazonwebservices.svg",   "category": "Cloud Service" },
+    { "name": "Azure",       "icon": "assets/icons/svg/azure.svg",               "category": "Cloud Service" },
+    { "name": "FastMCP",     "icon": "assets/icons/svg/fastmcp.svg",             "category": "AI/ML" },
+    { "name": "LangChain",   "icon": "assets/icons/svg/langchain.svg",           "category": "AI/ML" },
+    { "name": "PyTorch",     "icon": "assets/icons/svg/pytorch.svg",             "category": "AI/ML" },
+    { "name": "TensorFlow",  "icon": "assets/icons/svg/tensorflow.svg",          "category": "AI/ML" },
+    { "name": "Docker",      "icon": "assets/icons/svg/docker.svg",              "category": "Productivity" },
+    { "name": "Git",         "icon": "assets/icons/svg/git.svg",                 "category": "Productivity" },
+    { "name": "TailwindCSS", "icon": "assets/icons/svg/tailwindcss.svg",         "category": "Frontend" }
   ],
   "resume": {
     "url": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/resume.pdf",
