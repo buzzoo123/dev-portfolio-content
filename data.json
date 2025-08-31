@@ -2,7 +2,7 @@
   "profile": {
     "name": "Dillan Khurana",
     "title": "Full Stack ML/AI Engineer",
-    "description": "I engineer scalable full stack systems and production-ready agentic applications. My work blends modern software engineering with cutting-edge ML/AI integration, focusing on reliability, performance, and real-world impact.",
+    "description": "I engineer scalable full stack systems and production-ready agentic applications, with experience at Amazon Web Services building solutions that serve thousands of users. My work blends modern software engineering with cutting-edge ML/AI integration, focusing on reliability, performance, and real-world impact.",
     "avatar": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/profile.jpg",
     "social": {
       "github": "https://github.com/buzzoo123",
@@ -92,7 +92,7 @@
       "title": "Gig Grid",
       "description": "An iOS app for discovering and tracking live music gigs and events.",
       "longDescription": "Gig Grid helps music lovers find, organize, and attend live performances. Designed for simplicity and real-world use, it integrates a clean UI with live event data.",
-      "technologies": ["Swift", "iOS"],
+      "technologies": ["React Native", "Mobile Development", "MongoDB", "Express", "TypeScript", "Docker", "Full-Stack Engineering"],
       "images": [
         "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/projects/giggrid-splash.png"
       ],
@@ -106,7 +106,7 @@
       "title": "Demon Time",
       "description": "An open-source technical interview prep platform with community-driven roadmaps.",
       "longDescription": "Full-stack platform with coding problem tracking, spaced repetition, and community-built roadmaps. Includes roadmap builder, subscription system, and real-time conversations with Claude API.",
-      "technologies": ["React", "FastAPI", "PostgreSQL", "SQLAlchemy", "Docker", "AWS"],
+      "technologies": ["React", "FastAPI", "PostgreSQL", "SQLAlchemy", "Docker", "AWS", "LLMs"],
       "images": [
         "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/projects/demontime-splash.png"
       ],
@@ -121,7 +121,7 @@
       "title": "Produce Freshness CNN (1st Place ML4VA)",
       "description": "Won 1st out of 80+ teams with a TensorFlow transfer-learning CNN that reached 98% validation accuracy on produce freshness.",
       "longDescription": "Engineered and trained nine CNN variants using transfer learning (ResNet50V2) on 16,000+ labeled produce images, achieving 98% validation accuracy. Shipped a full-stack app for real-time uploads and inference with a Svelte + Tailwind front end and a serverless backend on Google Cloud Run with Cloud Storage.",
-      "technologies": ["TensorFlow", "ResNet50V2", "Python", "Svelte", "TailwindCSS", "Google Cloud Run", "Google Cloud Storage"],
+      "technologies": ["TensorFlow", "ResNet50V2", "Python", "Svelte", "TailwindCSS", "Google Cloud Platform"],
       "images": [
         "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/images/projects/fruitfreshness-splash.png"
       ],
@@ -161,22 +161,24 @@
   ],
   "skills": [
     { "name": "React",       "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/React.svg",               "category": "Frontend" },
+    { "name": "TailwindCSS", "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/Tailwind-CSS.svg",         "category": "Frontend" },
+    { "name": "Next.js",     "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/Next.js.svg",              "category": "Frontend" },
     { "name": "Node.js",     "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/Node.js.svg",              "category": "Backend" },
     { "name": "Express",     "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/Express.svg",             "category": "Backend" },
-    { "name": "Next.js",     "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/Next.js.svg",              "category": "Frontend" },
     { "name": "FastAPI",     "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/FastAPI.svg",             "category": "Backend" },
     { "name": "PostgreSQL",  "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/PostgresSQL.svg",          "category": "Database" },
     { "name": "MongoDB",     "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/MongoDB.svg",             "category": "Database" },
     { "name": "MySQL",       "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/MySQL.svg",               "category": "Database" },
     { "name": "AWS",         "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/AWS.svg",                 "category": "Cloud Service" },
     { "name": "Azure",       "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/Azure.svg",               "category": "Cloud Service" },
+    { "name": "Google Cloud Platform", "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/Google-Cloud.svg",         "category": "Cloud Service" },
     { "name": "FastMCP",     "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/MCP.svg",             "category": "AI/ML" },
     { "name": "LangChain",   "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/LangChain.svg",           "category": "AI/ML" },
     { "name": "PyTorch",     "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/PyTorch.svg",             "category": "AI/ML" },
     { "name": "TensorFlow",  "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/TensorFlow.svg",          "category": "AI/ML" },
+    { "name": "Hugging Face",  "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/Hugging-Face.svg",          "category": "AI/ML" },
     { "name": "Docker",      "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/Docker.svg",              "category": "Productivity" },
-    { "name": "Git",         "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/Git.svg",                 "category": "Productivity" },
-    { "name": "TailwindCSS", "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/Tailwind-CSS.svg",         "category": "Frontend" }
+    { "name": "Git",         "icon": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/assets/icons/svg/Git.svg",                 "category": "Productivity" }
   ],
   "resume": {
     "url": "https://raw.githubusercontent.com/buzzoo123/dev-portfolio-content/main/resume.pdf",
